@@ -1,5 +1,5 @@
 package com.StarPatterns;
-/*	
+/*Do the following : 	
      *
     ***
    *****
@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class DiamondShapePattern {
 	public static void main(String[] args) {
 	Scanner input= new Scanner(System.in);
-	System.out.println("Please enter the number of lines you want to display in your pattern");
+	System.out.println("Please enter the number of lines you want to display in your pattern below");
 	int lines= input.nextInt();
 	String space=" _";
 	String star=" *";
